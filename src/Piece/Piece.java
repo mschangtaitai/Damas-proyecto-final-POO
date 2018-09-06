@@ -5,10 +5,12 @@ import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 
 public class Piece {
+    private int maxRowColumn = 8;
+    private int minRowColumn = 0;
     SimpleBooleanProperty color;//True = Rojo, False = Azul
     SimpleIntegerProperty row;
     SimpleIntegerProperty column;
-    SimpleBooleanProperty crown;//Coronada
+    SimpleBooleanProperty crown;//True= Coronada, False= pieza normal
 
     public Piece (int row, int column){
         this.row = new SimpleIntegerProperty();
@@ -16,14 +18,30 @@ public class Piece {
 
         this.row.set(row);
         this.column.set(column);
-        //Pendientes otros atributos
+        this.crown = false;
     }
 
-    //ToDo public void move(){}
-    //ToDo public boolean checkValidMove()
+    public void move(int row, int column){
+        valid = checkValidMove(row, column);
+        if (valid) {
+            this.row = row;
+            this.column = column;
+        }
+    }
+    public boolean checkValidMove(int row, int column){
+        if (!minRowColumn<row<maxRowColumn)||((!minRowColumn<column<maxRowColumn)){
+            return false;
+        } else{
+            return true;
+        }
+    }
 
     public boolean getColor(){
         return this.color.get();
+    }
+
+    public void crownPiece(){
+        this.crown = true;
     }
 
 }

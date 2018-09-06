@@ -14,7 +14,6 @@ public class Cell {
 
         this.row.set(row);
         this.column.set(column);
-        //
     }
 
     public int getRow() {
