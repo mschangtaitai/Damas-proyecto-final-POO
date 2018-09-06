@@ -5,8 +5,6 @@ import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 
 public class Piece {
-    private int maxRowColumn = 8;
-    private int minRowColumn = 0;
     SimpleBooleanProperty color;//True = Rojo, False = Azul
     SimpleIntegerProperty row;
     SimpleIntegerProperty column;
