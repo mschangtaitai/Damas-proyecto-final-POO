@@ -38,6 +38,14 @@ public class Piece {
         return this.color.get();
     }
 
+    public SimpleIntegerProperty getRow() {
+        return row;
+    }
+
+    public SimpleIntegerProperty getColumn() {
+        return column;
+    }
+
     public void crownPiece(){
         this.crown = true;
     }
