@@ -13,13 +13,13 @@ import javafx.scene.control.Button;
 
 import java.awt.*;
 
-public class CheckersMain extends Application {
-
-        public static final int TILE_SIZE = 80;
+public class CheckersMain extends Application {//Se utiliza para crear la aplicación en javaFX
+        //CONSTANTES PARA LA PANTALLA
+        public static final int TILE_SIZE = 80;//TAMAÑO DE LA CASILA
         public static final int WIDTH = 8;
         public static final int HEIGHT = 8;
 
-        private Tile[][] board = new Tile[WIDTH][HEIGHT];
+        private Tile[][] board = new Tile[WIDTH][HEIGHT];//TABLERO
 
         private Group tileGroup = new Group();
         private Group pieceGroup = new Group();
@@ -43,6 +43,13 @@ public class CheckersMain extends Application {
             redCounter.setTranslateY(-100);
             redCounter.setFont(new Font("Verdana", 5));
 
+            Label rednumCounter = new Label();
+            rednumCounter.setScaleX(5);
+            rednumCounter.setScaleY(5);
+            rednumCounter.setTranslateX(800);
+            rednumCounter.setTranslateY(-70);
+            rednumCounter.setFont(new Font("Verdana", 5));
+
             Label blueCounter = new Label("Jugador Azul: ");
             blueCounter.setScaleX(5);
             blueCounter.setScaleY(5);
@@ -50,13 +57,21 @@ public class CheckersMain extends Application {
             blueCounter.setTranslateY(0);
             blueCounter.setFont(new Font("Verdana", 5));
 
+            Label bluenumCounter = new Label();
+            bluenumCounter.setText(String.valueOf(blueCounterNum));
+            bluenumCounter.setScaleX(5);
+            bluenumCounter.setScaleY(5);
+            bluenumCounter.setTranslateX(800);
+            bluenumCounter.setTranslateY(30);
+            bluenumCounter.setFont(new Font("Verdana", 5));
+
             Button surrenderButton = new Button();
             surrenderButton.setMinWidth(100);
             surrenderButton.setTranslateX(750);
             surrenderButton.setTranslateY(100);
             surrenderButton.setText("Me rindo!");
 
-            root.getChildren().addAll(title, blueCounter, redCounter, surrenderButton);
+            root.getChildren().addAll(title, blueCounter, redCounter, surrenderButton, rednumCounter, bluenumCounter);
             for (int y = 0; y < HEIGHT; y++) {
                 for (int x = 0; x < WIDTH; x++) {
                     Tile tile = new Tile((x + y) % 2 == 0, x, y);
@@ -71,7 +86,7 @@ public class CheckersMain extends Application {
                     }
 
                     if (y >= 5 && (x + y) % 2 != 0) {
-                        piece = makePiece(PieceType.WHITE, x, y);
+                        piece = makePiece(PieceType.BLUE, x, y);
                     }
 
                     if (piece != null) {
@@ -87,13 +102,14 @@ public class CheckersMain extends Application {
         private MoveResult tryMove(Piece piece, int newX, int newY) {
             if (board[newX][newY].hasPiece() || (newX + newY) % 2 == 0) {
                 return new MoveResult(MoveType.NONE);
-            }
+            }//EN CASOS EN LOS QUE LA CASILLA A LA QUE SE DESEA MOVER LA PIEZA CONTENGA YA OTRA PIEZA
+             //O QUE TRATE DE PONER DICHA PIEZA EN UNA CASILLA PAR, EL RESULTADO SERÁ NINGUNO, Y POR LO TANTO NO SE EFECTUA MOVIMIENTO ALGUNO.
 
-            int x0 = toBoard(piece.getOldX());
-            int y0 = toBoard(piece.getOldY());
+            int x0 = toBoard(piece.getOldX());//Posición en x inicial
+            int y0 = toBoard(piece.getOldY());//Posición en y inicial
 
             if (Math.abs(newX - x0) == 1 && newY - y0 == piece.getType().moveDir) {
-                return new MoveResult(MoveType.NORMAL);
+                return new MoveResult(MoveType.NORMAL);//MOVIMIENTO NORMAL
             } else if (Math.abs(newX - x0) == 2 && newY - y0 == piece.getType().moveDir * 2) {
 
                 int x1 = x0 + (newX - x0) / 2;
@@ -118,7 +134,8 @@ public class CheckersMain extends Application {
             primaryStage.setScene(scene);
             primaryStage.show();
         }
-
+    int redCounterNum = 0;
+    int blueCounterNum = 0;
         private Piece makePiece(PieceType type, int x, int y) {
             Piece piece = new Piece(type, x, y);
 
@@ -150,10 +167,16 @@ public class CheckersMain extends Application {
                         piece.move(newX, newY);
                         board[x0][y0].setPiece(null);
                         board[newX][newY].setPiece(piece);
-
                         Piece otherPiece = result.getPiece();
                         board[toBoard(otherPiece.getOldX())][toBoard(otherPiece.getOldY())].setPiece(null);
                         pieceGroup.getChildren().remove(otherPiece);
+                        if(piece.getType() == PieceType.RED){
+                            redCounterNum ++;
+                            System.out.println(redCounterNum);
+                        } else{
+                            blueCounterNum ++;
+                            System.out.println(blueCounterNum);
+                        }
                         break;
                 }
             });
