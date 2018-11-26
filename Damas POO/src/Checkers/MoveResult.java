@@ -2,12 +2,11 @@ package Checkers;
 
 public class MoveResult {
     private MoveType type;
+    private Piece piece;
 
     public MoveType getType() {
         return type;
     }
-
-    private Piece piece;
 
     public Piece getPiece() {
         return piece;

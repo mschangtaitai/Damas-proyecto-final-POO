@@ -12,6 +12,7 @@ public class Piece extends StackPane {
 
     private double mouseX, mouseY;
     private double oldX, oldY;
+    private boolean isKing = false;
 
     public PieceType getType() {
         return type;
@@ -67,7 +68,15 @@ public class Piece extends StackPane {
         relocate(oldX, oldY);
     }
 
+    public boolean isKing() {
+        return this.isKing;
+    }
+
     public void abortMove() {
         relocate(oldX, oldY);
+    }
+
+    public void crownPiece() {
+        this.isKing = true;
     }
 }
