@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0f7875ee-a88d-4e27-b734-2e4846f983c4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Damas POO/Damas POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Damas POO/Damas POO.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Damas POO/src/Checkers/CheckersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Damas POO/src/Checkers/CheckersMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Damas POO/src/Checkers/MoveResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/Damas POO/src/Checkers/MoveResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Damas POO/src/Checkers/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/Damas POO/src/Checkers/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Damas POO/src/Checkers/PieceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Damas POO/src/Checkers/PieceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Damas POO/src/observable/Observable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Damas POO/src/observable/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Damas-proyecto-final-POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Damas-proyecto-final-POO.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Damas POO/Checkers/CheckersMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Damas POO/Checkers/CheckersMain$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Damas POO/Checkers/CheckersMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Damas POO/Checkers/CheckersMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Damas POO/Checkers/MoveResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Damas POO/Checkers/MoveResult.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Damas POO/Checkers/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Damas POO/Checkers/Piece.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,17 +24,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckersMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckersMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/CheckersMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="132" column="29" lean-forward="true" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+            <state relative-caret-position="379">
+              <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8779#8780#0" expanded="true" />
-                <element signature="e#8850#8851#0" expanded="true" />
-                <element signature="e#11139#11140#0" expanded="true" />
-                <element signature="e#11175#11176#0" expanded="true" />
+                <element signature="e#8990#8991#0" expanded="true" />
+                <element signature="e#9061#9062#0" expanded="true" />
+                <element signature="e#5794#5795#0" expanded="true" />
+                <element signature="e#5830#5831#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Damas POO/src/Server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="280" selection-start-line="17" selection-start-column="280" selection-end-line="17" selection-end-column="280" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,12 +64,8 @@
       <file leaf-file-name="PieceType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/PieceType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -62,8 +73,8 @@
       <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="675">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1853#1854#0" expanded="true" />
@@ -110,13 +121,15 @@
         <option value="$PROJECT_DIR$/src/observable/Observer.java" />
         <option value="$PROJECT_DIR$/src/observable/Observable.java" />
         <option value="$PROJECT_DIR$/src/Piece/Piece.java" />
-        <option value="$PROJECT_DIR$/Damas POO/src/Checkers/Piece.java" />
         <option value="$PROJECT_DIR$/Damas POO/src/Checkers/MoveResult.java" />
+        <option value="$PROJECT_DIR$/Damas POO/src/Checkers/PieceType.java" />
+        <option value="$PROJECT_DIR$/Damas POO/src/Checkers/Piece.java" />
+        <option value="$PROJECT_DIR$/Damas POO/src/Server/Server.java" />
         <option value="$PROJECT_DIR$/Damas POO/src/Checkers/CheckersMain.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="808" />
@@ -126,6 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,14 +196,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Checkers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Damas-proyecto-final-POO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Damas-proyecto-final-POO" type="462c0819:PsiDirectoryNode" />
+              <item name="Damas POO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -226,6 +252,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Checkers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.Server" />
+      <module name="Damas POO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,10 +311,12 @@
     <list>
       <item itemvalue="Application.CheckersMain" />
       <item itemvalue="Application.CheckersMain (1)" />
+      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CheckersMain (1)" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.CheckersMain" />
       </list>
     </recent_temporary>
@@ -307,12 +346,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3787466" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4373297" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -339,12 +378,6 @@
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Damas POO/src/Checkers/CheckersMain.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Damas POO/src/Checkers/MoveResult.java</url>
           <line>11</line>
           <properties />
@@ -361,35 +394,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/CheckersMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8779#8780#0" expanded="true" />
-            <element signature="e#8850#8851#0" expanded="true" />
-            <element signature="e#11139#11140#0" expanded="true" />
-            <element signature="e#11175#11176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/PieceType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -419,13 +427,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/Piece.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
@@ -437,13 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveType.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -451,13 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveResult.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -465,17 +455,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/PieceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/PieceType.java" />
     <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/CheckersMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -483,27 +463,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/CheckersMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/CheckersMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/Checkers/Piece.java" />
+    <entry file="file://$PROJECT_DIR$/src/Checkers/Tile.java" />
     <entry file="file://$PROJECT_DIR$/src/Piece/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -511,31 +473,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/PieceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveType.java" />
+    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveResult.java" />
+    <entry file="file://$PROJECT_DIR$/src/Checkers/PieceType.java" />
     <entry file="file://$PROJECT_DIR$/src/Board/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -597,27 +537,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/CheckersMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/Tile.java" />
+    <entry file="file://$PROJECT_DIR$/src/Checkers/CheckersMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/Checkers/Piece.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
@@ -629,13 +551,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveType.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -643,13 +559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkers/MoveResult.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -657,44 +567,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkers/PieceType.java">
+    <entry file="file://$PROJECT_DIR$/src/Checkers/PieceType.java" />
+    <entry file="file://$PROJECT_DIR$/Damas POO/out/production/Damas POO/Checkers/CheckersMain.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Damas POO/out/production/Damas POO/Checkers/Piece.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Damas POO/out/production/Damas POO/Checkers/CheckersMain.class">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="675">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <element signature="e#0#6696#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/PieceType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Damas POO/out/production/Damas POO/Checkers/Piece.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#1890#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -705,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/MoveResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/MoveType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -719,28 +614,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/Piece.java">
+    <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/MoveResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Damas POO/src/Checkers/CheckersMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="132" column="29" lean-forward="true" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+        <state relative-caret-position="379">
+          <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8779#8780#0" expanded="true" />
-            <element signature="e#8850#8851#0" expanded="true" />
-            <element signature="e#11139#11140#0" expanded="true" />
-            <element signature="e#11175#11176#0" expanded="true" />
+            <element signature="e#8990#8991#0" expanded="true" />
+            <element signature="e#9061#9062#0" expanded="true" />
+            <element signature="e#5794#5795#0" expanded="true" />
+            <element signature="e#5830#5831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Damas POO/src/Server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="280" selection-start-line="17" selection-start-column="280" selection-end-line="17" selection-end-column="280" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -748,9 +648,79 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Damas-proyecto-final-POO</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
